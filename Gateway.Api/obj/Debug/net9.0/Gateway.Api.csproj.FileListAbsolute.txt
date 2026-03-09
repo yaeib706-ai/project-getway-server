@@ -38,3 +38,43 @@ C:\Users\sbhtk\Desktop\פרויקט ב\Gateway.Api\obj\Debug\net9.0\refint\Gatew
 C:\Users\sbhtk\Desktop\פרויקט ב\Gateway.Api\obj\Debug\net9.0\Gateway.Api.pdb
 C:\Users\sbhtk\Desktop\פרויקט ב\Gateway.Api\obj\Debug\net9.0\Gateway.Api.genruntimeconfig.cache
 C:\Users\sbhtk\Desktop\פרויקט ב\Gateway.Api\obj\Debug\net9.0\ref\Gateway.Api.dll
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\appsettings.json
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\ocelot.json
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\Gateway.Api.staticwebassets.endpoints.json
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\Gateway.Api.exe
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\Gateway.Api.deps.json
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\Gateway.Api.runtimeconfig.json
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\Gateway.Api.dll
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\Gateway.Api.pdb
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\IPAddressRange.dll
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\bin\Debug\net9.0\Ocelot.dll
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\Gateway.Api.csproj.AssemblyReference.cache
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\Gateway.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\Gateway.Api.AssemblyInfoInputs.cache
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\Gateway.Api.AssemblyInfo.cs
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\Gateway.Api.csproj.CoreCompileInputs.cache
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\Gateway.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\Gateway.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\Gateway.Api.sourcelink.json
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\scopedcss\bundle\Gateway.Api.styles.css
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\Gateway..CF3EF8A1.Up2Date
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\Gateway.Api.dll
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\refint\Gateway.Api.dll
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\Gateway.Api.pdb
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\Gateway.Api.genruntimeconfig.cache
+C:\Users\sbhtk\Desktop\פרוקט ב כללי\פרויקט ב\Gateway.Api\obj\Debug\net9.0\ref\Gateway.Api.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OEH0d8PkLwc=",
+  "dgSpecHash": "I/ZIeZJJJS0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sbhtk\\Desktop\\פרויקט ב\\Gateway.Api\\Gateway.Api.csproj",
+  "projectFilePath": "C:\\Users\\sbhtk\\Desktop\\פרוקט ב כללי\\פרויקט ב\\Gateway.Api\\Gateway.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sbhtk\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\sbhtk\\.nuget\\packages\\ipaddressrange\\6.3.0\\ipaddressrange.6.3.0.nupkg.sha512",
