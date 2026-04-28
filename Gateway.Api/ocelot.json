@@ -1,7 +1,7 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/api/service-a/{everything}",
+      "DownstreamPathTemplate": "/api/users/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -9,8 +9,464 @@
           "Port": 5000
         }
       ],
-      "UpstreamPathTemplate": "/gateway/service-a/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+      "UpstreamPathTemplate": "/api/users/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/users",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/users",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/student/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/student",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/student",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/skills/category/{categoryId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/skills/category/{categoryId}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/skills/user/{userId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/skills/user/{userId}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/skills/user/{userId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/skills/user/{userId}",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/projects",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/projects",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/projects/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/projects/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/projects/{id}/with-images",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/projects/{id}/with-images",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/projects/user/{userId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/projects/user/{userId}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/projects",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/projects",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/projects/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/projects/{id}",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/projects/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/projects/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/project/user/{userId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/project/user/{userId}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/project/user/{userId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/project/user/{userId}",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/project/{projectId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/project/{projectId}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/portfolio/user/{userId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/portfolio/user/{userId}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/portfolio/user/{userId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/portfolio/user/{userId}",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/portfolio/{projectId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/portfolio/{projectId}",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/portfolio/{projectId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/portfolio/{projectId}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/personaldetails/{userId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/personaldetails/{userId}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/personaldetails",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/personaldetails",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/personaldetails/{userId}/email",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/personaldetails/{userId}/email",
+      "UpstreamHttpMethod": [ "PATCH" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/images",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/images",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/images/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/images/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/images/project/{projectId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/images/project/{projectId}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/images",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/images",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/images/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/images/{id}",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/images/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/images/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/files/user/{userId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/files/user/{userId}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/files",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/files",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/files/{documentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/files/{documentId}",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/files/{documentId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/files/{documentId}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/file/upload",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/file/upload",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/chat/init/{userId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/chat/init/{userId}",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/chat/{userId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/chat/{userId}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/chat/message",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/chat/message",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/auth/dev-token",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/auth/dev-token",
+      "UpstreamHttpMethod": [ "POST" ]
     }
   ],
   "GlobalConfiguration": {
