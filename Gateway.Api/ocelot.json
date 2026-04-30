@@ -467,6 +467,30 @@
       ],
       "UpstreamPathTemplate": "/api/auth/dev-token",
       "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/stats/landing-page",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/stats/landing-page",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/emails/send",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "REPLACE_DOWNSTREAM_HOST",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/emails/send",
+      "UpstreamHttpMethod": [ "POST" ]
     }
   ],
   "GlobalConfiguration": {
